@@ -10,7 +10,7 @@ A work-in-progress website for **[TamrielCraft](https://www.tamrielcraft.eu/)** 
 ## 🔗 Preview
 
 View the current live preview on GitHub Pages:  
-👉 [https://jackjt8.github.io/TC_Web/](https://jackjt8.github.io/TC_Web/)
+👉 [https://jackjt8.github.io/TamrielCraft_Website/](https://jackjt8.github.io/TamrielCraft_Website/)
 
 ---
 
