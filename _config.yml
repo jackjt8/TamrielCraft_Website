@@ -3,7 +3,7 @@ title: "TamrielCraft"
 description: >-
   Welcome to TamrielCraft — a Minecraft server recreating the Elder Scrolls universe.
 url: "https://jackjt8.github.io"       # Main domain (no trailing slash)
-baseurl: "/TC_Web"                     # Subdirectory (with leading slash, no trailing)
+baseurl: "/TamrielCraft_Website"                     # Subdirectory (with leading slash, no trailing)
 github: [metadata]
 
 copyright: "TamrielCraft"
