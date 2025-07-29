@@ -1,1 +1,1 @@
-Sitemap: https://jackjt8.github.io/TC_Web/sitemap.xml
+Sitemap: https://jackjt8.github.io/TamrielCraft_Website/sitemap.xml

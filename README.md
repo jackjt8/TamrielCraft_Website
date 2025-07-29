@@ -1,6 +1,6 @@
 # TC_Web
 
-A work-in-progress website for **[TamrielCraft](https://tamrielcraft.eu/)** – a Minecraft project dedicated to recreating Tamriel and surrounding lands based on The Elder Scrolls series.
+A work-in-progress website for **[TamrielCraft](https://www.tamrielcraft.eu/)** – a Minecraft project dedicated to recreating Tamriel and surrounding lands based on The Elder Scrolls series.
 
 > 🛠 Built with [Jekyll](https://jekyllrb.com/) using the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.  
 > 🧪 Hosted via GitHub Pages for public previews and testing.

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://jackjt8.github.io/TC_Web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jackjt8.github.io/TC_Web/" rel="alternate" type="text/html" /><updated>2025-07-29T22:53:51+00:00</updated><id>https://jackjt8.github.io/TC_Web/feed.xml</id><title type="html">TamrielCraft</title><subtitle>Welcome to TamrielCraft — a Minecraft server recreating the Elder Scrolls universe.</subtitle><author><name>TamrielCraft</name></author><entry><title type="html">Welcome to the New TamrielCraft Site</title><link href="https://jackjt8.github.io/TC_Web/updates/2025/07/17/site-launch.html" rel="alternate" type="text/html" title="Welcome to the New TamrielCraft Site" /><published>2025-07-17T00:00:00+00:00</published><updated>2025-07-17T00:00:00+00:00</updated><id>https://jackjt8.github.io/TC_Web/updates/2025/07/17/site-launch</id><content type="html" xml:base="https://jackjt8.github.io/TC_Web/updates/2025/07/17/site-launch.html"><![CDATA[<h2 id="a-long-overdue-update">A Long-Overdue Update</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://jackjt8.github.io/TamrielCraft_Website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jackjt8.github.io/TamrielCraft_Website/" rel="alternate" type="text/html" /><updated>2025-07-29T22:59:32+00:00</updated><id>https://jackjt8.github.io/TamrielCraft_Website/feed.xml</id><title type="html">TamrielCraft</title><subtitle>Welcome to TamrielCraft — a Minecraft server recreating the Elder Scrolls universe.</subtitle><author><name>TamrielCraft</name></author><entry><title type="html">Welcome to the New TamrielCraft Site</title><link href="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/07/17/site-launch.html" rel="alternate" type="text/html" title="Welcome to the New TamrielCraft Site" /><published>2025-07-17T00:00:00+00:00</published><updated>2025-07-17T00:00:00+00:00</updated><id>https://jackjt8.github.io/TamrielCraft_Website/updates/2025/07/17/site-launch</id><content type="html" xml:base="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/07/17/site-launch.html"><![CDATA[<h2 id="a-long-overdue-update">A Long-Overdue Update</h2>
 
 <p>Welcome to the new TamrielCraft website!</p>
 
@@ -31,7 +31,7 @@
 
 <p>As always, we invite you to <a href="#">join our Discord</a> to stay up to date, ask questions, or apply to contribute.</p>
 
-<p>Here’s to a new chapter — and a better way to share the world we’re building together.</p>]]></content><author><name>tamrielcraft</name></author><category term="updates" /><category term="site" /><category term="update" /><category term="community" /><category term="jekyll" /><category term="markdown" /><summary type="html"><![CDATA[TamrielCraft's new website is here! Built with Jekyll and Markdown, it's designed to be easier to update, easier to contribute to, and a much better reflection of the server and its community in 2025.]]></summary></entry><entry><title type="html">Rebuilding Skyrim: A Long-Awaited Merge</title><link href="https://jackjt8.github.io/TC_Web/updates/2025/06/10/skyrim-integration-update.html" rel="alternate" type="text/html" title="Rebuilding Skyrim: A Long-Awaited Merge" /><published>2025-06-10T00:00:00+00:00</published><updated>2025-06-10T00:00:00+00:00</updated><id>https://jackjt8.github.io/TC_Web/updates/2025/06/10/skyrim-integration-update</id><content type="html" xml:base="https://jackjt8.github.io/TC_Web/updates/2025/06/10/skyrim-integration-update.html"><![CDATA[<p>If you’ve run into strange issues on the server lately—lag spikes, terrain glitches, chunks failing to load, or even getting kicked offline—you’re not the only one. We know things have been rocky, and we want to shed some light on what’s causing the instability—and why we believe it’s worth pushing through.</p>
+<p>Here’s to a new chapter — and a better way to share the world we’re building together.</p>]]></content><author><name>tamrielcraft</name></author><category term="updates" /><category term="site" /><category term="update" /><category term="community" /><category term="jekyll" /><category term="markdown" /><summary type="html"><![CDATA[TamrielCraft's new website is here! Built with Jekyll and Markdown, it's designed to be easier to update, easier to contribute to, and a much better reflection of the server and its community in 2025.]]></summary></entry><entry><title type="html">Rebuilding Skyrim: A Long-Awaited Merge</title><link href="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/06/10/skyrim-integration-update.html" rel="alternate" type="text/html" title="Rebuilding Skyrim: A Long-Awaited Merge" /><published>2025-06-10T00:00:00+00:00</published><updated>2025-06-10T00:00:00+00:00</updated><id>https://jackjt8.github.io/TamrielCraft_Website/updates/2025/06/10/skyrim-integration-update</id><content type="html" xml:base="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/06/10/skyrim-integration-update.html"><![CDATA[<p>If you’ve run into strange issues on the server lately—lag spikes, terrain glitches, chunks failing to load, or even getting kicked offline—you’re not the only one. We know things have been rocky, and we want to shed some light on what’s causing the instability—and why we believe it’s worth pushing through.</p>
 
 <blockquote>
   <p>As always, the best way to stay in the loop is to <a href="https://discord.gg/ApShrYn">join our Discord</a>, where we post smaller updates and sneak peeks in real time.</p>
@@ -40,7 +40,7 @@
 <h2 id="the-vision-years-in-the-making">The Vision, Years in the Making</h2>
 
 <figure class="captioned-figure" style="position: relative; display: inline-block;">
-  <img src="https://jackjt8.github.io/TC_Web/assets/images/posts/2025-06-10-skyrim/windhelm_s.jpg" alt="Sacellum of Boethiah overlooking Windhelm and beyond." />
+  <img src="https://jackjt8.github.io/TamrielCraft_Website/assets/images/posts/2025-06-10-skyrim/windhelm_s.jpg" alt="Sacellum of Boethiah overlooking Windhelm and beyond." />
   <span class="captioned-figure__caption">
     Sacellum of Boethiah taken by Jackjt8
   </span>
@@ -59,7 +59,7 @@
 <h2 id="whats-happening-behind-the-scenes">What’s Happening Behind the Scenes</h2>
 
 <figure class="captioned-figure" style="position: relative; display: inline-block;">
-  <img src="https://jackjt8.github.io/TC_Web/assets/images/posts/2025-06-10-skyrim/falkreath_s.jpg" alt="Falkreath and it's surroundings." />
+  <img src="https://jackjt8.github.io/TamrielCraft_Website/assets/images/posts/2025-06-10-skyrim/falkreath_s.jpg" alt="Falkreath and it's surroundings." />
   <span class="captioned-figure__caption">
     Falkreath taken by Jackjt8
   </span>
@@ -91,7 +91,7 @@
 
 <p>And most of all, thank you to <strong>Fonta</strong> for his years of tireless work, and to <strong>every builder, contributor, and supporter</strong> helping bring Tamriel to life—one block at a time.</p>
 
-<p>Stay tuned… the best is yet to come.</p>]]></content><author><name>tamrielcraft</name></author><category term="updates" /><category term="update" /><category term="skyrim" /><category term="fonta" /><category term="server" /><category term="world-edit" /><category term="terrain" /><category term="lore" /><summary type="html"><![CDATA[Fonta's Skyrim is being fully merged into the main TamrielCraft map — and it’s a massive step forward for the project.]]></summary></entry><entry><title type="html">Leadership Changes – Tribunal and Staff Update</title><link href="https://jackjt8.github.io/TC_Web/updates/2025/02/16/leadership-changes.html" rel="alternate" type="text/html" title="Leadership Changes – Tribunal and Staff Update" /><published>2025-02-16T00:00:00+00:00</published><updated>2025-02-16T00:00:00+00:00</updated><id>https://jackjt8.github.io/TC_Web/updates/2025/02/16/leadership-changes</id><content type="html" xml:base="https://jackjt8.github.io/TC_Web/updates/2025/02/16/leadership-changes.html"><![CDATA[<h2 id="tribunal-transition">Tribunal Transition</h2>
+<p>Stay tuned… the best is yet to come.</p>]]></content><author><name>tamrielcraft</name></author><category term="updates" /><category term="update" /><category term="skyrim" /><category term="fonta" /><category term="server" /><category term="world-edit" /><category term="terrain" /><category term="lore" /><summary type="html"><![CDATA[Fonta's Skyrim is being fully merged into the main TamrielCraft map — and it’s a massive step forward for the project.]]></summary></entry><entry><title type="html">Leadership Changes – Tribunal and Staff Update</title><link href="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/02/16/leadership-changes.html" rel="alternate" type="text/html" title="Leadership Changes – Tribunal and Staff Update" /><published>2025-02-16T00:00:00+00:00</published><updated>2025-02-16T00:00:00+00:00</updated><id>https://jackjt8.github.io/TamrielCraft_Website/updates/2025/02/16/leadership-changes</id><content type="html" xml:base="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/02/16/leadership-changes.html"><![CDATA[<h2 id="tribunal-transition">Tribunal Transition</h2>
 
 <p>On February 16th, 2025, <strong>CaptumQuantum</strong> officially stepped down from his position as a member of the Tribunal. After much discussion, CaptumQuantum chose to step back from this leadership role to focus on other priorities, but he remains part of the team as <strong>Staff</strong> — and has made it clear that he’s happy to step in again when needed.</p>
 
@@ -100,7 +100,7 @@
 <h2 id="a-new-tribunal-member">A New Tribunal Member</h2>
 
 <figure class="captioned-figure" style="position: relative; display: inline-block;">
-  <img src="https://jackjt8.github.io/TC_Web/assets/images/posts/2025-02-16-leadership/davons_s.jpg" alt="Davon's Watch with Vvardenfell in the background." />
+  <img src="https://jackjt8.github.io/TamrielCraft_Website/assets/images/posts/2025-02-16-leadership/davons_s.jpg" alt="Davon's Watch with Vvardenfell in the background." />
   <span class="captioned-figure__caption">
     Davon's Watch taken by Jackjt8
   </span>
@@ -127,7 +127,7 @@
 <h2 id="staff-promotion">Staff Promotion</h2>
 
 <figure class="captioned-figure" style="position: relative; display: inline-block;">
-  <img src="https://jackjt8.github.io/TC_Web/assets/images/posts/2025-02-16-leadership/nchuleftingth_s.jpg" alt="The Dwemer ruins of Nchuleftingth, within the Molag Amur region." />
+  <img src="https://jackjt8.github.io/TamrielCraft_Website/assets/images/posts/2025-02-16-leadership/nchuleftingth_s.jpg" alt="The Dwemer ruins of Nchuleftingth, within the Molag Amur region." />
   <span class="captioned-figure__caption">
     Nchuleftingth taken by Jackjt8
   </span>
