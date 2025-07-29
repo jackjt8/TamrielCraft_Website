@@ -1,0 +1,122 @@
+# Site settings
+title: "TamrielCraft"
+description: >-
+  Welcome to TamrielCraft — a Minecraft server recreating the Elder Scrolls universe.
+url: "https://jackjt8.github.io"       # Main domain (no trailing slash)
+baseurl: "/TC_Web"                     # Subdirectory (with leading slash, no trailing)
+github: [metadata]
+
+copyright: "TamrielCraft"
+copyright_url: /credits/
+
+theme: minimal-mistakes-jekyll
+#minimal_mistakes_skin: "neon"          # Check /assets/css/main.scss instead.
+sass:
+  style: compressed
+  
+locale: "en-US"
+
+# Logo (optional)
+logo: "/assets/images/favicon-96x96.png"
+
+
+# Search
+#search: true
+#search_full_content: true # Search full page content not working likely due to GitHub Pages limitation.
+
+
+tag_archive:
+  type: liquid
+  path: /tags/
+category_archive:
+  type: liquid
+  path: /categories/
+
+
+# SEO
+# google_site_verification: "YOUR-ID-HERE"
+
+
+# Plugins
+plugins:
+  - jekyll-include-cache               # Required for remote themes
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Default ghpages/Jekyll
+markdown: kramdown
+highlighter: rouge
+
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - vendor/bundle
+keep_files: []                         # Empty for now
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Pagination for updates (posts)
+# paginate: 5
+# paginate_path: "/updates/page:num/"
+
+navigation:
+  data: navigation
+  nav: main
+  
+# Defaults
+defaults:
+  # Blog posts (updates)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+      related: true
+    
+  # Static pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+
+# Comments - Giscus (recommended) or Utterances
+#     Probably want to only enable comments on specific posts and/or pages
+
+
+# Footer links
+footer:
+  since: "2012"
+  links:
+    - label: "YouTube"
+      icon: "fa-brands fa-youtube"
+      url: "https://www.youtube.com/@TamrielCraftOfficial"
+    - label: "Instagram"
+      icon: "fa-brands fa-instagram"
+      url: "https://www.instagram.com/tamrielcraft/"
+    - label: "PlanetMinecraft"
+      icon: "fas fa-globe-europe" #Doesn't exist so need an option.
+      url: "https://www.planetminecraft.com/server/tamrielcraft/"
+    - label: "Discord"
+      icon: "fa-brands fa-discord"
+      url: "https://discord.gg/ApShrYn"
+
+# Author
+author:
+  name: "TamrielCraft"
+  avatar: "/assets/images/tc_profile256_clean_yellow.jpg"
+
+# Supress sass deprecation warnings as much as possible; Needs fix in base theme
+sass:
+  quiet_deps: true
+  

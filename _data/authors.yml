@@ -1,0 +1,90 @@
+# Authors.md
+# This file lets us define authors for use in posts/pages.
+# In a post/page front matter, add `author: <name>` and ensure `author_profile: true`
+
+# ---
+
+# TamrielCraft (default/undefined) --- Used for announcement and othe official posts.
+#author:
+#  name: "TamrielCraft"
+#  avatar: "/assets/images/tc_profile256_clean_yellow.jpg"
+
+# ---
+# Tribunal
+BlueMoony:
+  name: "BlueMoony"
+  avatar: "/assets/images/authors/bluemoony.jpg"
+  bio: "Administrator and founding member of TamrielCraft."
+  location: "Tamriel"
+  links:
+    - label: "PlanetMinecraft"
+      icon: "fas fa-globe"
+      url: "https://www.planetminecraft.com/member/bluemoony/"
+
+dee:
+  name: "dee"
+  avatar: "/assets/images/authors/dee.jpg"
+  bio: "Administrator. Oversees development and creative direction."
+  location: "Tamriel"
+
+Vivec:
+  name: "Vivec"
+  avatar: "/assets/images/authors/vivec.jpg"
+  bio: "Administrator. Focused on lore accuracy and architectural cohesion."
+  location: "Tamriel"
+
+# ---
+# Staff
+Yvan:
+  name: "Yvan"
+  avatar: "/assets/images/authors/yvan.jpg"
+  bio: "Staff and builder with an eye for realism."
+  location: "Tamriel"
+
+Nat:
+  name: "Nat"
+  avatar: "/assets/images/authors/nat.jpg"
+  bio: "Staff and builder with an eye for realism."
+  location: "Tamriel"
+
+SamDren:
+  name: "SamDren"
+  avatar: "/assets/images/authors/samdren.jpg"
+  bio: "Staff and builder with an eye for realism."
+  location: "Tamriel"
+
+Jackjt8:
+  name: "Jackjt8"
+  avatar: "/assets/images/authors/jackjt8.jpg"
+  bio: "Moderator, social media manager, contributor to the website and resource pack."
+  location: "Unitied Kingdom"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/jackjt8"
+
+NicovicTheSixth:
+  name: "NicovicTheSixth"
+  avatar: "/assets/images/authors/nicovicthesixth.jpg"
+  bio: "Moderator and lore consultant."
+  location: "Tamriel"
+
+PresidentCrabo:
+  name: "PresidentCrabo"
+  avatar: "/assets/images/authors/presidentcrabo.jpg"
+  bio: "Moderator and enthusiastic builder."
+  location: "Tamriel"
+
+CaptainQuantum:
+  name: "CaptainQuantum"
+  avatar: "/assets/images/authors/captainquantum.jpg"
+  bio: "Former Tribunal and longtime builder."
+  location: "Tamriel"
+
+Pringlulz:
+  name: "Pringlulz"
+  avatar: "/assets/images/authors/pringlulz.jpg"
+  bio: "Former Tribunal and contributor."
+  location: "Tamriel"
+
+# EOF
