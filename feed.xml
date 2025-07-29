@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://jackjt8.github.io/TC_Web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jackjt8.github.io/TC_Web/" rel="alternate" type="text/html" /><updated>2025-07-29T22:53:51+00:00</updated><id>https://jackjt8.github.io/TC_Web/feed.xml</id><title type="html">TamrielCraft</title><subtitle>Welcome to TamrielCraft — a Minecraft server recreating the Elder Scrolls universe.</subtitle><author><name>TamrielCraft</name></author><entry><title type="html">Welcome to the New TamrielCraft Site</title><link href="https://jackjt8.github.io/TC_Web/updates/2025/07/17/site-launch.html" rel="alternate" type="text/html" title="Welcome to the New TamrielCraft Site" /><published>2025-07-17T00:00:00+00:00</published><updated>2025-07-17T00:00:00+00:00</updated><id>https://jackjt8.github.io/TC_Web/updates/2025/07/17/site-launch</id><content type="html" xml:base="https://jackjt8.github.io/TC_Web/updates/2025/07/17/site-launch.html"><![CDATA[<h2 id="a-long-overdue-update">A Long-Overdue Update</h2>
+
+<p>Welcome to the new TamrielCraft website!</p>
+
+<p>Our previous site hadn’t seen a meaningful update since 2017. It was maintained by a single team member, which made it difficult to keep information current or share progress with the broader community. As the project grew, so did the need for a more flexible, team-friendly platform.</p>
+
+<h2 id="why-a-new-site--and-why-now">Why a New Site — and Why Now?</h2>
+
+<p>TamrielCraft has changed a lot over the years. We’ve grown from a handful of builders into a vibrant team recreating an entire continent. With that growth comes more updates, more contributors, and more need for transparency, accessibility, and regular communication. Our old site just couldn’t keep up.</p>
+
+<p>This relaunch is more than a visual facelift — it’s a shift in how we share and build together.</p>
+
+<h2 id="built-for-the-community">Built for the Community</h2>
+
+<p>Our new site is powered by <a href="https://jekyllrb.com/">Jekyll</a>, a lightweight static site generator that transforms simple Markdown files into fully functional web pages. Markdown is the same formatting used on Reddit, Discord, and many forums — so it’s easy to write, easy to read, and easy to contribute to.</p>
+
+<p>This approach lets us:</p>
+
+<ul>
+  <li>Write posts and updates in plain text using <code class="language-plaintext highlighter-rouge">.md</code> files</li>
+  <li>Review and approve content through GitHub pull requests</li>
+  <li>Let multiple team members contribute without needing web development experience</li>
+  <li>Maintain better organization with categories, tags, and archives</li>
+</ul>
+
+<p>And best of all: since it’s statically generated, the site is fast, secure, and easy to host.</p>
+
+<h2 id="whats-next">What’s Next?</h2>
+
+<p>We plan to use this new platform to post regular updates, tutorials, technical breakdowns, build showcases, and more. Whether you’re a casual explorer, an aspiring builder, or a long-time contributor, this site will be your hub for everything TamrielCraft.</p>
+
+<p>As always, we invite you to <a href="#">join our Discord</a> to stay up to date, ask questions, or apply to contribute.</p>
+
+<p>Here’s to a new chapter — and a better way to share the world we’re building together.</p>]]></content><author><name>tamrielcraft</name></author><category term="updates" /><category term="site" /><category term="update" /><category term="community" /><category term="jekyll" /><category term="markdown" /><summary type="html"><![CDATA[TamrielCraft's new website is here! Built with Jekyll and Markdown, it's designed to be easier to update, easier to contribute to, and a much better reflection of the server and its community in 2025.]]></summary></entry><entry><title type="html">Rebuilding Skyrim: A Long-Awaited Merge</title><link href="https://jackjt8.github.io/TC_Web/updates/2025/06/10/skyrim-integration-update.html" rel="alternate" type="text/html" title="Rebuilding Skyrim: A Long-Awaited Merge" /><published>2025-06-10T00:00:00+00:00</published><updated>2025-06-10T00:00:00+00:00</updated><id>https://jackjt8.github.io/TC_Web/updates/2025/06/10/skyrim-integration-update</id><content type="html" xml:base="https://jackjt8.github.io/TC_Web/updates/2025/06/10/skyrim-integration-update.html"><![CDATA[<p>If you’ve run into strange issues on the server lately—lag spikes, terrain glitches, chunks failing to load, or even getting kicked offline—you’re not the only one. We know things have been rocky, and we want to shed some light on what’s causing the instability—and why we believe it’s worth pushing through.</p>
+
+<blockquote>
+  <p>As always, the best way to stay in the loop is to <a href="https://discord.gg/ApShrYn">join our Discord</a>, where we post smaller updates and sneak peeks in real time.</p>
+</blockquote>
+
+<h2 id="the-vision-years-in-the-making">The Vision, Years in the Making</h2>
+
+<figure class="captioned-figure" style="position: relative; display: inline-block;">
+  <img src="https://jackjt8.github.io/TC_Web/assets/images/posts/2025-06-10-skyrim/windhelm_s.jpg" alt="Sacellum of Boethiah overlooking Windhelm and beyond." />
+  <span class="captioned-figure__caption">
+    Sacellum of Boethiah taken by Jackjt8
+  </span>
+</figure>
+
+<p>Nearly ten years ago, one of our most dedicated builders, Fonta59, began a monumental undertaking: recreating Skyrim as faithfully as possible, block by block. His goal was to match the world seen in The Elder Scrolls V: Skyrim with near 1:1 accuracy—capturing its geography, settlements, and atmosphere in painstaking detail. What started as a standalone passion project soon grew into a parallel build effort alongside the main TamrielCraft map.</p>
+
+<blockquote>
+  <p>You can actually download and play on Fonta59’s version of Skyrim over on <a href="https://www.planetminecraft.com/project/skyrim-map-by-fonta59-skyrim-tes-interiors-with-download-1-20/">PlanetMinecraft</a>.</p>
+</blockquote>
+
+<p>Some of Fonta’s work has made it into the live server over the years—cities like <strong>Whiterun</strong>, <strong>Solitude</strong>, and <strong>Winterhold</strong> are already familiar to long-time players. But a huge chunk of the project remained separate. The reason? The terrain and scale tweaks were so extensive that integrating the full build would have required massive changes to our existing map.</p>
+
+<p><strong>Until now.</strong></p>
+
+<h2 id="whats-happening-behind-the-scenes">What’s Happening Behind the Scenes</h2>
+
+<figure class="captioned-figure" style="position: relative; display: inline-block;">
+  <img src="https://jackjt8.github.io/TC_Web/assets/images/posts/2025-06-10-skyrim/falkreath_s.jpg" alt="Falkreath and it's surroundings." />
+  <span class="captioned-figure__caption">
+    Falkreath taken by Jackjt8
+  </span>
+</figure>
+
+<p>Fonta is currently in the process of merging his entire overhauled Skyrim into the main TamrielCraft world. This includes:</p>
+
+<ul>
+  <li>Major <strong>terrain overhauls</strong> across the province</li>
+  <li>Integration of <strong>unreleased cities, towns, and ruins</strong></li>
+  <li>Adjustments to <strong>elevation, roads, rivers, and borders</strong> for better regional cohesion</li>
+</ul>
+
+<p>This kind of integration is… well, monumental. It requires hours of world editing, careful alignment, and no small amount of server resources. As we blend old and new, some side effects—like lag spikes, terrain anomalies, or visual bugs—are to be expected.</p>
+
+<p>Because Fonta’s project developed independently from the main server, there are areas where his builds now overlap with existing ones already present on TamrielCraft. In these cases, we’re engaging in detailed discussions as a team to decide which version to keep. Fonta’s builds naturally align with the new terrain—while our existing ones were shaped by the old geography and often require reworking to fit.</p>
+
+<p>These aren’t easy decisions. Whether it’s a village, a fort, or an entire region, we approach each case carefully, striving to honour the work of all contributors. TamrielCraft has always been a collaborative effort, and that spirit of shared vision continues to guide us—even as the world shifts beneath our feet.</p>
+
+<h2 id="why-it-matters">Why It Matters</h2>
+
+<p>Despite the disruption, this is one of the most exciting milestones in TamrielCraft’s history.</p>
+
+<p>We’re working toward a version of Skyrim that feels immersive, cohesive, and true to the source material. Every hold, road, and mountain pass is being recreated with immense care and detail—lovingly crafted, block by block, to capture the spirit and scale of the original.</p>
+
+<h2 id="looking-ahead">Looking Ahead</h2>
+
+<p>We want to thank everyone for their patience while we carry out this massive update. We’re working hard to minimize downtime and ensure the world remains stable as we go.</p>
+
+<p>And most of all, thank you to <strong>Fonta</strong> for his years of tireless work, and to <strong>every builder, contributor, and supporter</strong> helping bring Tamriel to life—one block at a time.</p>
+
+<p>Stay tuned… the best is yet to come.</p>]]></content><author><name>tamrielcraft</name></author><category term="updates" /><category term="update" /><category term="skyrim" /><category term="fonta" /><category term="server" /><category term="world-edit" /><category term="terrain" /><category term="lore" /><summary type="html"><![CDATA[Fonta's Skyrim is being fully merged into the main TamrielCraft map — and it’s a massive step forward for the project.]]></summary></entry><entry><title type="html">Leadership Changes – Tribunal and Staff Update</title><link href="https://jackjt8.github.io/TC_Web/updates/2025/02/16/leadership-changes.html" rel="alternate" type="text/html" title="Leadership Changes – Tribunal and Staff Update" /><published>2025-02-16T00:00:00+00:00</published><updated>2025-02-16T00:00:00+00:00</updated><id>https://jackjt8.github.io/TC_Web/updates/2025/02/16/leadership-changes</id><content type="html" xml:base="https://jackjt8.github.io/TC_Web/updates/2025/02/16/leadership-changes.html"><![CDATA[<h2 id="tribunal-transition">Tribunal Transition</h2>
+
+<p>On February 16th, 2025, <strong>CaptumQuantum</strong> officially stepped down from his position as a member of the Tribunal. After much discussion, CaptumQuantum chose to step back from this leadership role to focus on other priorities, but he remains part of the team as <strong>Staff</strong> — and has made it clear that he’s happy to step in again when needed.</p>
+
+<p>We want to thank CaptumQuantum for his invaluable leadership, insight, and dedication during his time on the Tribunal. His influence has shaped many areas of the server and his continued presence on the team is deeply appreciated.</p>
+
+<h2 id="a-new-tribunal-member">A New Tribunal Member</h2>
+
+<figure class="captioned-figure" style="position: relative; display: inline-block;">
+  <img src="https://jackjt8.github.io/TC_Web/assets/images/posts/2025-02-16-leadership/davons_s.jpg" alt="Davon's Watch with Vvardenfell in the background." />
+  <span class="captioned-figure__caption">
+    Davon's Watch taken by Jackjt8
+  </span>
+</figure>
+
+<p>Following CaptumQuantum’s departure, we’re pleased to announce that <strong>Dee</strong> has been promoted from Staff to Tribunal.</p>
+
+<p>Dee has been a cornerstone of TamrielCraft’s progress for many years, contributing an incredible number of high-quality builds — especially across <strong>Solstheim</strong> and <strong>Vvardenfell</strong>. Many iconic locations owe their form to Dee’s work, including:</p>
+
+<ul>
+  <li><strong>Old Ebonheart</strong> (inspired by <em>The Elder Scrolls Online</em>)</li>
+  <li><strong>Skaal Village</strong></li>
+  <li><strong>Pelagiad</strong></li>
+  <li><strong>Molag Mar</strong></li>
+  <li><strong>Davon’s Watch</strong></li>
+  <li><strong>Seyda Neen</strong></li>
+  <li><strong>Ald Sotha</strong></li>
+</ul>
+
+<p>These are just a few of the many places shaped by Dee’s creativity and attention to detail. Their ability to balance lore fidelity with practical in-world design has helped breathe life into some of the most beloved (and obscure) corners of Morrowind. As Tribunal, we know Dee will bring the same vision and drive to guiding the project as a whole.</p>
+
+<p>Please join us in congratulating Dee on this well-earned promotion!</p>
+
+<h2 id="staff-promotion">Staff Promotion</h2>
+
+<figure class="captioned-figure" style="position: relative; display: inline-block;">
+  <img src="https://jackjt8.github.io/TC_Web/assets/images/posts/2025-02-16-leadership/nchuleftingth_s.jpg" alt="The Dwemer ruins of Nchuleftingth, within the Molag Amur region." />
+  <span class="captioned-figure__caption">
+    Nchuleftingth taken by Jackjt8
+  </span>
+</figure>
+
+<p>We’re also proud to welcome <strong>Nat</strong> to the Staff team.</p>
+
+<p>Over the past few years, Nat has become a dependable and friendly presence on the server — frequently helping new players, sharing insight, and assisting when other staff weren’t around. Their quiet reliability has made them an essential part of our day-to-day community.</p>
+
+<p>In addition to moderation and support, Nat has contributed to a wide variety of builds across Tamriel. Some notable examples include:</p>
+
+<ul>
+  <li><strong>Anvil Castle</strong></li>
+  <li><strong>Necrom</strong></li>
+  <li>A number of <strong>Dunmer ancestral tombs</strong></li>
+  <li><strong>Nchuleftingth</strong></li>
+  <li><strong>Bthuand</strong></li>
+  <li>The <strong>Keywright’s Gallery</strong></li>
+</ul>
+
+<p>Nat’s fingerprints are all over the world — often in areas where thoughtful, atmospheric design is key. With Dee’s move to Tribunal, the time felt right to officially bring Nat onto the Staff team.</p>
+
+<hr />
+
+<p>TamrielCraft is a community-driven project, and it’s people like CaptumQuantum, Dee, and Nat who help keep it alive — one build, one conversation, and one idea at a time. Thank you all for being part of this journey and we hope you’ll join us as we pave the road ahead!</p>]]></content><author><name>tamrielcraft</name></author><category term="updates" /><category term="community" /><category term="staff" /><category term="tribunal" /><category term="update" /><summary type="html"><![CDATA[Some recent shifts in the TamrielCraft leadership team — including a Tribunal stepping down and two new promotions from within the community.]]></summary></entry></feed>
