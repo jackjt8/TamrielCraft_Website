@@ -24,9 +24,22 @@ To build the site locally, you need Ruby, Bundler, and Jekyll installed.
 - Bundler (`gem install bundler`)
 - Jekyll (`gem install jekyll`)
 - Git (to clone or contribute)
+- libvips (image processing backend used by jekyll_picture_tag)
+- Image libraries: `libjpeg`, `libpng`, `libwebp`, `libtiff`, etc.
 - A modern browser for testing
 
-You can install Ruby via [rubyinstaller.org](https://rubyinstaller.org/) (Windows) or use Homebrew / a version manager on macOS/Linux.
+You can install Ruby via [rubyinstaller.org](https://rubyinstaller.org/) (Windows) or use Homebrew / a version manager on macOS/Linux.  
+For libvips and image libraries:
+
+- **macOS**:  
+  `brew install vips`
+
+- **Ubuntu/Debian**:  
+  `sudo apt install libvips libjpeg-dev libpng-dev libwebp-dev libtiff-dev`
+
+- **Windows**:  
+  Use the [vips Windows installer](https://github.com/libvips/libvips/releases) (add it to PATH)
+
 
 ### 🚀 Setup Steps
 

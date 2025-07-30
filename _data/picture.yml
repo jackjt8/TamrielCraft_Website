@@ -1,0 +1,46 @@
+presets:
+  default:
+    widths: [480, 768, 1280]
+    formats: [webp, jpg]
+    fallback_format: jpg
+    link_source: true
+    sizes:
+      default: "100vw"
+
+  gallery:
+    widths: [480, 768, 1280]
+    formats: [webp, jpg]
+    fallback_format: jpg
+    link_source: true
+    sizes:
+      "(max-width: 768px)": "100vw"
+      "(max-width: 1280px)": "90vw"
+      default: "768px"
+
+  thumbnail:
+    widths: [200, 400]
+    formats: [webp]
+    fallback_format: webp
+    link_source: false
+    sizes:
+      default: "200px"
+
+  blog:
+    widths: [480, 768, 1280]
+    formats: [webp, jpg]
+    fallback_format: jpg
+    link_source: true
+    sizes:
+      "(max-width: 768px)": "100vw"
+      "(max-width: 1280px)": "90vw"
+      default: "768px"
+
+  hero:
+    widths: [768, 1280, 1920, 2560, 3840]
+    formats: [webp, jpg]
+    fallback_format: jpg
+    link_source: true
+    sizes:
+      "(max-width: 768px)": "100vw"
+      "(max-width: 1280px)": "100vw"
+      default: "1920px"
