@@ -43,6 +43,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-picture-tag
 
 # Default ghpages/Jekyll
 markdown: kramdown
@@ -57,6 +58,34 @@ exclude:
 keep_files: []                         # Empty for now
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# JPL Responsive images
+picture:
+  source: "assets/images/fullsize"
+  output: "assets/images/generated"
+  suppress_warnings: true
+
+  #Global defaults
+  fallback_format: jpg
+  formats: [webp, jpg]
+  widths: [480, 768, 1280]
+  link_source: true
+
+  presets:
+    gallery:
+      widths: [480, 768, 1280] # Same as Global, retained for possible future use
+
+    thumbnail: # Nav grid previews, sidebar images, link preview cards
+      widths: [200, 400]
+      formats: [webp]
+      link_source: false
+
+    blog:
+      widths: [480, 768, 1280] # Same as Global, retained for possible future use
+
+    hero:
+      widths: [768, 1280, 1920, 2560, 3840] # High-res for wide displays
+      sizes: "(max-width: 768px) 100vw, (max-width: 1280px) 100vw, 1920px"
 
 
 # Pagination for updates (posts)
