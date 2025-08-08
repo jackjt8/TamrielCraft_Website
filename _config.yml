@@ -47,6 +47,8 @@ plugins:
 
 # Default ghpages/Jekyll
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 highlighter: rouge
 
 picture:

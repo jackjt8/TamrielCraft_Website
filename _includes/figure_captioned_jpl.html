@@ -1,0 +1,8 @@
+<figure class="captioned-figure" style="position: relative; display: inline-block;">
+  {% assign preset_name = include.preset | default: "default" %}
+  {% assign attrs = include.attributes | default: "" %}
+  {% picture {{ preset_name }} "{{ include.src }}" alt="{{ include.alt }}" {{ attrs }} %}
+  <span class="captioned-figure__caption">
+    {{ include.caption }}
+  </span>
+</figure>
