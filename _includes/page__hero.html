@@ -22,9 +22,9 @@
   {% if page.header.overlay_color or overlay_img_path != "" %}
     <div class="page__hero-media">
       {% if overlay_img_path != "" %}
-        {% picture {{ page.header.overlay_image }} preset="hero" alt="{{ image_description }}" %}
+        {% picture hero {{ page.header.overlay_image }} alt="{{ image_description }}" %}
       {% elsif page.header.image %}
-        {% picture {{ page.header.image }} preset="hero" alt="{{ image_description }}" %}
+        {% picture hero {{ page.header.image }} alt="{{ image_description }}" %}
       {% endif %}
     </div>
 
@@ -64,7 +64,7 @@
 
   {% else %}
     {% if page.header.image %}
-      {% picture {{ page.header.image }} preset="hero" alt="{{ image_description }}" %}
+      {% picture hero {{ page.header.image }} alt="{{ image_description }}" %}
     {% endif %}
   {% endif %}
 

@@ -6,7 +6,7 @@ author_profile: false
 toc: true
 ---
 
-{% picture /pages/rules/kvatch_day_flat.png preset="default" alt="kvatch_day" %}
+{% picture blog /pages/rules/kvatch_day_flat.png alt="kvatch_day" %}
 
 
 
