@@ -12,7 +12,7 @@ read_time: true
 toc: false
 share: true
 header:
-    overlay_image: /assets/images/posts/2025-02-16-leadership/header_s.jpg
+    overlay_image: /posts/2025-02-16-leadership/header_s.jpg
     overlay_filter: 0.25
     caption: "Seyda Neen & Necrom, taken by Jackjt8"
 ---

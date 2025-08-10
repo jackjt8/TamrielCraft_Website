@@ -10,7 +10,7 @@ classes: wide
 toc: false
 search: true
 header:
-    overlay_image: /assets/images/posts/2025-06-10-skyrim/banner_s.jpg
+    overlay_image: /posts/2025-06-10-skyrim/banner_s.jpg
     overlay_filter: 0.25
     caption: "A few of The Rift, taken by Jackjt8"
 ---

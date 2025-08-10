@@ -1,0 +1,74 @@
+{% if page.header.image_description %}
+  {% assign image_description = page.header.image_description %}
+{% else %}
+  {% assign image_description = page.title %}
+{% endif %}
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+{%- capture overlay_img_path -%}{{ page.header.overlay_image | default: "" }}{%- endcapture -%}
+{%- assign overlay_filter = nil -%}
+{% if page.header.overlay_filter %}
+  {% if page.header.overlay_filter contains "gradient" %}
+    {% assign overlay_filter = page.header.overlay_filter %}
+  {% elsif page.header.overlay_filter contains "rgba" %}
+    {% assign overlay_filter = "linear-gradient(" | append: page.header.overlay_filter | append: ", " | append: page.header.overlay_filter | append: ")" %}
+  {% else %}
+    {% assign rgba_val = "rgba(0, 0, 0, " | append: page.header.overlay_filter | append: ")" %}
+    {% assign overlay_filter = "linear-gradient(" | append: rgba_val | append: ", " | append: rgba_val | append: ")" %}
+  {% endif %}
+{% endif %}
+
+<div class="page__hero{% if page.header.overlay_color or overlay_img_path != "" %}--overlay{% endif %}">
+  {% if page.header.overlay_color or overlay_img_path != "" %}
+    <div class="page__hero-media">
+      {% if overlay_img_path != "" %}
+        {% picture {{ page.header.overlay_image }} preset="hero" alt="{{ image_description }}" %}
+      {% elsif page.header.image %}
+        {% picture {{ page.header.image }} preset="hero" alt="{{ image_description }}" %}
+      {% endif %}
+    </div>
+
+    {% assign overlay_style = "" %}
+    {% if overlay_filter %}
+      {% assign overlay_style = "background:" | append: overlay_filter | append: ";" %}
+    {% elsif page.header.overlay_color %}
+      {% assign overlay_style = "background-color:" | append: page.header.overlay_color | append: ";" %}
+    {% endif %}
+    <div class="page__hero-overlay" style="{{ overlay_style }}"></div>
+
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        {% if paginator and site.paginate_show_page_num %}
+          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+        {% else %}
+          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% endif %}
+      </h1>
+
+      {% if page.tagline %}
+        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
+        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% endif %}
+
+      {% include page__meta.html %}
+
+      {% if page.header.actions %}
+        <p>
+        {% for action in page.header.actions %}
+          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+        {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+
+  {% else %}
+    {% if page.header.image %}
+      {% picture {{ page.header.image }} preset="hero" alt="{{ image_description }}" %}
+    {% endif %}
+  {% endif %}
+
+  {% if page.header.caption %}
+    <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+</div>

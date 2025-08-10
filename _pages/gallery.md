@@ -3,7 +3,7 @@ layout: splash
 title: "Gallery"
 permalink: /gallery/
 header:
-    image: /assets/images/gallery/high_rock/stormhaven_region_s.jpg
+    image: /gallery/high_rock/stormhaven_region_s.jpg
 
 blackmarsh:
   - url: /assets/images/gallery/blackmarsh/stormhold.png

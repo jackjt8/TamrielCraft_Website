@@ -56,3 +56,46 @@ $primary-color: #ffd200 !default;
   }
 }
 
+/* hero media & overlay helpers */
+.page__hero {
+  position: relative;
+  overflow: hidden;
+
+  &-media {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    picture, img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &--overlay {
+    position: relative; // create stacking context
+
+    .page__hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    // only affect .wrapper if it exists
+    .wrapper {
+      position: relative;
+      z-index: 2;
+    }
+
+    // only affect caption if it exists
+    .page__hero-caption {
+      position: relative;
+      z-index: 3;
+    }
+  }
+}
+
+
