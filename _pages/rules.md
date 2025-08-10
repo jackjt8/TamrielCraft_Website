@@ -6,10 +6,6 @@ author_profile: false
 toc: true
 ---
 
-{% picture blog /pages/rules/kvatch_day_flat.png alt="kvatch_day" %}
-
-
-
 These rules apply to all TamrielCraft services, including the Minecraft server, Discord, and forums. They exist to maintain a respectful and collaborative environment. Violations will be handled by staff accordingly.
 
 > **⚠️ These rules are strictly enforced.**  
