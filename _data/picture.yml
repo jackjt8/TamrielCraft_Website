@@ -39,6 +39,8 @@ presets:
   # Used on gallery.md.
   gallery:
     <<: *base
+    link_source: false
+    nomarkdown: false # gallery images are wrapped in so much html that we need this flag set.
     sizes:
       tablet: "100vw"
       desktop: "90vw"
