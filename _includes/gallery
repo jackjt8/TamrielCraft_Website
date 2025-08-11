@@ -1,0 +1,49 @@
+{% comment %}
+Custom override: Supports galleries from:
+1. Explicit include.images
+2. _data/gallery.yml via include.id
+3. Page front matter (legacy)
+Usage: {% include gallery id="blackmarsh" %}
+{% endcomment %}
+
+{% if include.images %}
+  {% assign gallery = include.images %}
+{% elsif include.id %}
+  {% if site.data.gallery[include.id] %}
+    {% assign gallery = site.data.gallery[include.id] %}
+  {% else %}
+    {% assign gallery = page[include.id] %}
+  {% endif %}
+{% else %}
+  {% assign gallery = page.gallery %}
+{% endif %}
+
+{% if include.layout %}
+  {% assign gallery_layout = include.layout %}
+{% else %}
+  {% if gallery.size == 2 %}
+    {% assign gallery_layout = 'half' %}
+  {% elsif gallery.size >= 3 %}
+    {% assign gallery_layout = 'third' %}
+  {% else %}
+    {% assign gallery_layout = '' %}
+  {% endif %}
+{% endif %}
+
+<figure class="{{ gallery_layout }} {{ include.class }}" markdown="0">
+  {% for img in gallery %}
+    {% if img.url %}
+      <a href="{{ img.url | relative_url }}"
+        {% if img.title %}title="{{ img.title | escape_once }}"{% endif %}>
+          <img src="{{ img.image_path | relative_url }}"
+               alt="{% if img.alt %}{{ img.alt | escape_once }}{% endif %}">
+      </a>
+    {% else %}
+      <img src="{{ img.image_path | relative_url }}"
+           alt="{% if img.alt %}{{ img.alt | escape_once }}{% endif %}">
+    {% endif %}
+  {% endfor %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  {% endif %}
+</figure>
