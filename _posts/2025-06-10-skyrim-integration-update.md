@@ -10,7 +10,7 @@ classes: wide
 toc: false
 search: true
 header:
-    overlay_image: /posts/2025-06-10-skyrim/banner_s.jpg
+    overlay_image: /posts/2025-06-10-skyrim/header.png
     overlay_filter: 0.25
     caption: "A few of The Rift, taken by Jackjt8"
 ---
@@ -24,7 +24,7 @@ If you've run into strange issues on the server lately—lag spikes, terrain gli
 
 {% include figure_captioned_jpt.html
    preset="blog"
-   src="/posts/2025-06-10-skyrim/windhelm_s.jpg"
+   src="/posts/2025-06-10-skyrim/windhelm.png"
    alt="Sacellum of Boethiah overlooking Windhelm and beyond."
    caption="Sacellum of Boethiah taken by Jackjt8"
 %}
@@ -42,7 +42,7 @@ Some of Fonta’s work has made it into the live server over the years—cities 
 
 {% include figure_captioned_jpt.html
     preset="blog"
-    src="posts/2025-06-10-skyrim/falkreath_s.jpg"
+    src="posts/2025-06-10-skyrim/falkreath.png"
     alt="Falkreath and it's surroundings."
     caption="Falkreath taken by Jackjt8"
 %}

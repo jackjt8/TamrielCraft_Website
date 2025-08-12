@@ -12,7 +12,7 @@ read_time: true
 toc: false
 share: true
 header:
-    overlay_image: /posts/2025-07-17-site_launch/header_s.jpg
+    overlay_image: /posts/2025-07-17-site_launch/header.png
     overlay_filter: 0.5
 ---
 
