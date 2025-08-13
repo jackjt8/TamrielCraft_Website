@@ -3,7 +3,7 @@ layout: splash
 title: "Gallery"
 permalink: /gallery/
 header:
-    image: /gallery/high_rock/stormhaven_region_s.jpg
+    image: /gallery/high_rock/stormhaven_region.png
     
 # See _data/gallery.yml for definitions
 ---

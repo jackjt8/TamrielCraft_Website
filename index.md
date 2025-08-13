@@ -6,7 +6,7 @@ author_profile: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /banner.jpg
+  overlay_image: /mini_planet_tamriel.jpg
   actions:
     - label: "Our Discord Community"
       url: "https://discord.gg/ApShrYn"
