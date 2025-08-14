@@ -23,8 +23,9 @@ presets:
     strip_metadata: true
     image_options:
       avif:
-        compression: av1
-        speed: 6
+        compression: hevc # fallback
+        #compression: av1 # unsupported in ubuntu-latest runnners on GH
+        #speed: 6
     data_sizes: true
     keep: attention
     dimension_attributes: false
