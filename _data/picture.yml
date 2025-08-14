@@ -9,7 +9,7 @@ presets:
   base: &base
     markup: auto
     widths: [480, 768, 1280]
-    formats: [avif, webp, jpg]
+    formats: [webp, jpg]
     fallback_format: jpg
     fallback_width: 1280
     noscript: false
