@@ -14,6 +14,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install image processing dependencies # tiff, svg2, heif, gif, exif are optional.
+        run: |
+            sudo apt-get update
+            sudo apt-get install -y \
+            libvips-dev \
+            imagemagick \
+            libjpeg-dev \
+            libpng-dev \
+            libwebp-dev \
+            libavif-dev \
+            libtiff-dev \
+            librsvg2-dev \
+            libheif-dev \
+            libgif-dev \
+            libexif-dev
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

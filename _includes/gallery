@@ -1,0 +1,62 @@
+{% comment %}
+Gallery include with optional JPT support via a global `use_jpt` flag in _data/gallery.yml
+jpt_preset should vary based on gallery_layout. This is not implemented.
+{% endcomment %}
+
+{% if include.images %}
+  {% assign gallery = include.images %}
+{% elsif include.id %}
+  {% assign gallery = site.data.gallery[include.id] %}
+{% else %}
+  {% assign gallery = page.gallery %}
+{% endif %}
+
+{% assign use_jpt = site.data.gallery.use_jpt | default: false %}
+
+
+{% assign jpt_preset = 'gallery' %}
+{% if include.layout %}
+  {% assign gallery_layout = include.layout %}
+{% else %}
+  {% if gallery and gallery.size == 2 %}
+    {% assign gallery_layout = 'half' %}
+  {% elsif gallery and gallery.size >= 3 %}
+    {% assign gallery_layout = 'third' %}
+  {% else %}
+    {% assign gallery_layout = '' %}
+  {% endif %}
+{% endif %}
+
+<figure class="{{ gallery_layout }} {{ include.class }}" markdown="0">
+  {% if gallery %}
+    {% assign picture_source = site.picture.source | default: '/assets/images/generated' %}
+
+    {% for img in gallery %}
+      {% if img.url %}
+        {% if use_jpt %}
+          {% assign href_path = picture_source | append: img.url | relative_url %}
+        {% else %}
+          {% assign href_path = img.url | relative_url %}
+        {% endif %}
+        <a href="{{ href_path }}" title="{{ img.title | escape_once }}" class="image-popup">
+          {% if use_jpt %}
+            {% picture gallery "{{ img.url }}" alt="{{ img.alt | default: img.title }}" %}
+          {% else %}
+            <img src="{{ img.image_path | relative_url }}" alt="{{ img.alt | escape_once }}">
+          {% endif %}
+        </a>
+      {% else %}
+        {% if use_jpt %}
+          {% picture gallery "{{ img.image_path }}" alt="{{ img.alt | default: img.title }}" %}
+        {% else %}
+          <img src="{{ img.image_path | relative_url }}" alt="{{ img.alt | escape_once }}">
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <p><em>No gallery images found.</em></p>
+  {% endif %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  {% endif %}
+</figure>

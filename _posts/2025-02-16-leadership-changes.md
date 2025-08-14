@@ -12,7 +12,7 @@ read_time: true
 toc: false
 share: true
 header:
-    overlay_image: /assets/images/posts/2025-02-16-leadership/header_s.jpg
+    overlay_image: /posts/2025-02-16-leadership/header.png
     overlay_filter: 0.25
     caption: "Seyda Neen & Necrom, taken by Jackjt8"
 ---
@@ -26,10 +26,11 @@ We want to thank CaptumQuantum for his invaluable leadership, insight, and dedic
 
 ## A New Tribunal Member
 
-{% include figure_captioned.html
-	src="assets/images/posts/2025-02-16-leadership/davons_s.jpg"
-	alt="Davon's Watch with Vvardenfell in the background."
-	caption="Davon's Watch taken by Jackjt8"
+{% include figure_captioned_jpt.html
+    preset="blog"
+    src="/posts/2025-02-16-leadership/davons.png"
+    alt="Davon's Watch with Vvardenfell in the background."
+    caption="Davon's Watch taken by Jackjt8"
 %}
 
 Following CaptumQuantum's departure, we’re pleased to announce that **Dee** has been promoted from Staff to Tribunal.
@@ -51,10 +52,11 @@ Please join us in congratulating Dee on this well-earned promotion!
 
 ## Staff Promotion
 
-{% include figure_captioned.html
-	src="assets/images/posts/2025-02-16-leadership/nchuleftingth_s.jpg"
-	alt="The Dwemer ruins of Nchuleftingth, within the Molag Amur region."
-	caption="Nchuleftingth taken by Jackjt8"
+{% include figure_captioned_jpt.html
+    preset="blog"
+    src="/posts/2025-02-16-leadership/nchuleftingth.png"
+    alt="The Dwemer ruins of Nchuleftingth, within the Molag Amur region."
+    caption="Nchuleftingth taken by Jackjt8"
 %}
 
 We’re also proud to welcome **Nat** to the Staff team.

@@ -43,11 +43,18 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll_picture_tag
 
 # Default ghpages/Jekyll
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 highlighter: rouge
 
+picture:
+  source: "assets/images/fullsize"
+  output: "assets/images/generated"
+  supress_warnings: false # default
 
 # Reading Files
 include:
@@ -57,7 +64,6 @@ exclude:
 keep_files: []                         # Empty for now
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Pagination for updates (posts)
 # paginate: 5

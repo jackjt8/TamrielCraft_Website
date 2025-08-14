@@ -1,0 +1,81 @@
+media_queries:
+  mobile: '(max-width: 480px)'
+  tablet: '(max-width: 768px)'
+  laptop: '(max-width: 1024px)'
+  desktop: '(max-width: 1200px)'
+  wide: '(min-width: 1201px)'
+
+presets:
+  base: &base
+    markup: auto
+    widths: [480, 768, 1280]
+    formats: [avif, webp, jpg]
+    fallback_format: jpg
+    fallback_width: 1280
+    noscript: false
+    link_source: true
+    nomarkdown: true
+    quality: 75
+    format_quality:
+      webp: 60
+      avif: 35
+      jp2: 30
+    strip_metadata: true
+    image_options:
+      avif:
+        compression: av1
+        speed: 6
+    data_sizes: true
+    keep: attention
+    dimension_attributes: false
+    sizes:
+      default: "100vw"
+
+  # Fallback, don't use --- Anything with 1024 generated is WRONG.
+  default:
+    <<: *base
+    widths: [480, 768, 1024, 1280]
+
+  # Used on gallery.md.
+  gallery:
+    <<: *base
+    link_source: false
+    nomarkdown: false # gallery images are wrapped in so much html that we need this flag set.
+    sizes:
+      tablet: "100vw"
+      desktop: "90vw"
+      default: "768px"
+
+  # Useful when an image will always be the same size on all screens
+  # (icons, graphics, thumbnails, etc), but you'd like to supply
+  # higher resolution images to devices with higher pixel ratios.
+  thumbnail:
+    base_width: 200
+    pixel_ratios: [1, 1.5, 2]
+    formats: [avif, webp, jpg]
+    fallback_width: 200
+    fallback_format: jpg
+    link_source: false
+    sizes:
+      default: "200px"
+
+  # Used for pictures on blog posts
+  blog:
+    <<: *base
+    sizes:
+      tablet: "100vw"
+      desktop: "90vw"
+      default: "768px"
+
+  # Header/banner images
+  hero:
+    <<: *base
+    widths: [500, 768, 1280, 1920, 2560, 3840]
+    fallback_width: 1920
+    nomarkdown: false # Headers are wrapped in so much html that we need this flag set.
+    link_source: true
+    sizes:
+      tablet: "100vw"
+      desktop: "100vw"
+      default: "1920px"
+

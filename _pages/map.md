@@ -31,7 +31,7 @@ author_profile: false
 
 The Dynmap includes custom icons to help identify important locations across Tamriel:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 2rem; font-size: 0.95rem; font-weight: 400; border: 1px solid #ccc; padding: 1rem; border-radius: 8px; background-color: rgba(255, 255, 255, 0.03);">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 2rem; font-size: 0.95rem; font-weight: 400; border: 1px solid #ccc; padding: 1rem; border-radius: 8px; background-color: rgba(255, 255, 255, 0.03);" markdown="0">
 
   <div>
     <strong>🏙️ Major city or capital</strong><br>

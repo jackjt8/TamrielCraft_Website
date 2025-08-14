@@ -10,7 +10,7 @@ classes: wide
 toc: false
 search: true
 header:
-    overlay_image: /assets/images/posts/2025-06-10-skyrim/banner_s.jpg
+    overlay_image: /posts/2025-06-10-skyrim/header.png
     overlay_filter: 0.25
     caption: "A few of The Rift, taken by Jackjt8"
 ---
@@ -22,10 +22,11 @@ If you've run into strange issues on the server lately—lag spikes, terrain gli
 
 ## The Vision, Years in the Making
 
-{% include figure_captioned.html
-	src="assets/images/posts/2025-06-10-skyrim/windhelm_s.jpg"
-	alt="Sacellum of Boethiah overlooking Windhelm and beyond."
-	caption="Sacellum of Boethiah taken by Jackjt8"
+{% include figure_captioned_jpt.html
+   preset="blog"
+   src="/posts/2025-06-10-skyrim/windhelm.png"
+   alt="Sacellum of Boethiah overlooking Windhelm and beyond."
+   caption="Sacellum of Boethiah taken by Jackjt8"
 %}
 
 Nearly ten years ago, one of our most dedicated builders, Fonta59, began a monumental undertaking: recreating Skyrim as faithfully as possible, block by block. His goal was to match the world seen in The Elder Scrolls V: Skyrim with near 1:1 accuracy—capturing its geography, settlements, and atmosphere in painstaking detail. What started as a standalone passion project soon grew into a parallel build effort alongside the main TamrielCraft map.
@@ -39,10 +40,11 @@ Some of Fonta’s work has made it into the live server over the years—cities 
 
 ## What’s Happening Behind the Scenes
 
-{% include figure_captioned.html
-	src="assets/images/posts/2025-06-10-skyrim/falkreath_s.jpg"
-	alt="Falkreath and it's surroundings."
-	caption="Falkreath taken by Jackjt8"
+{% include figure_captioned_jpt.html
+    preset="blog"
+    src="posts/2025-06-10-skyrim/falkreath.png"
+    alt="Falkreath and it's surroundings."
+    caption="Falkreath taken by Jackjt8"
 %}
 
 Fonta is currently in the process of merging his entire overhauled Skyrim into the main TamrielCraft world. This includes:
