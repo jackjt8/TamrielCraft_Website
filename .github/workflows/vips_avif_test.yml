@@ -1,0 +1,46 @@
+name: VIPS AVIF / HEIF Support Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-vips:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libvips-tools \
+            libvips-dev \
+            libheif-dev \
+            libavif-dev \
+            libjpeg-dev \
+            imagemagick
+
+      - name: Create test image
+        run: |
+          echo "Creating test 100x100 white JPG..."
+          convert -size 100x100 xc:white test.jpg
+
+      - name: Test AVIF (AV1) support
+        run: |
+          echo "Testing AVIF AV1 compression..."
+          if vips dzsave test.jpg test_avif.avif --avif-compression av1 2>/dev/null; then
+            echo "✅ AV1 AVIF encoding supported"
+          else
+            echo "⚠ AV1 AVIF encoding NOT supported"
+          fi
+
+      - name: Test HEIF / HEIC support
+        run: |
+          echo "Testing HEIF/HEIC save..."
+          if vips dzsave test.jpg test_heif.heif 2>/dev/null; then
+            echo "✅ HEIF/HEIC encoding supported"
+          else
+            echo "⚠ HEIF/HEIC encoding NOT supported"
+          fi
