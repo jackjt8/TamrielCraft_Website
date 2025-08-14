@@ -1,0 +1,37 @@
+GIMP
+
+1. Capture
+    Firefox
+        :screenshot --dpr 3 --fullpage
+
+2. Add to GIMP
+
+3. Image > Rotate > Arbitary Rotation: -3
+
+4. Create background layer using color
+
+5. Merge Layer + Background
+
+6. LED screen effect
+    a.) Duplicate main layer
+    b.) Filters > Distorts > Newsprint
+        Color Mode: RGB
+        Spot function: Diamond
+        Cell Size: 10 (see high resolution)
+        Angle: 0 for stripes or 45 degrees for dot patterns
+
+    c.) Change layer mode to Overlay or Soft light (and/or Gaussian blur ~2px)
+    d.) Opacity ~60%
+
+7. Flatten layers
+
+8. Focus Blur
+    Filters > Blur > Focus Blur
+        Lens Blur, not Gaussian
+        Pick center point and adjust values.
+
+9. Noise
+    Filters → Noise → RGB Noise
+        Keep values low
+
+10. Crop to 3840x2160

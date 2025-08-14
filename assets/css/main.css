@@ -36,6 +36,40 @@
   white-space: nowrap;
 }
 
+/* hero media & overlay helpers */
+.page__hero {
+  position: relative;
+  overflow: hidden;
+}
+.page__hero-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.page__hero-media picture, .page__hero-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page__hero--overlay {
+  position: relative;
+}
+.page__hero--overlay .page__hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.page__hero--overlay .wrapper {
+  position: relative;
+  z-index: 2;
+}
+.page__hero--overlay .page__hero-caption {
+  position: relative;
+  z-index: 3;
+}
+
 /* ==========================================================================
    Neon skin
    ========================================================================== */

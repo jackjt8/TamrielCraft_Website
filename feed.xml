@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://jackjt8.github.io/TamrielCraft_Website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jackjt8.github.io/TamrielCraft_Website/" rel="alternate" type="text/html" /><updated>2025-07-29T23:04:46+00:00</updated><id>https://jackjt8.github.io/TamrielCraft_Website/feed.xml</id><title type="html">TamrielCraft</title><subtitle>Welcome to TamrielCraft — a Minecraft server recreating the Elder Scrolls universe.</subtitle><author><name>TamrielCraft</name></author><entry><title type="html">Welcome to the New TamrielCraft Site</title><link href="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/07/17/site-launch.html" rel="alternate" type="text/html" title="Welcome to the New TamrielCraft Site" /><published>2025-07-17T00:00:00+00:00</published><updated>2025-07-17T00:00:00+00:00</updated><id>https://jackjt8.github.io/TamrielCraft_Website/updates/2025/07/17/site-launch</id><content type="html" xml:base="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/07/17/site-launch.html"><![CDATA[<h2 id="a-long-overdue-update">A Long-Overdue Update</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://jackjt8.github.io/TamrielCraft_Website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jackjt8.github.io/TamrielCraft_Website/" rel="alternate" type="text/html" /><updated>2025-08-14T19:36:43+00:00</updated><id>https://jackjt8.github.io/TamrielCraft_Website/feed.xml</id><title type="html">TamrielCraft</title><subtitle>Welcome to TamrielCraft — a Minecraft server recreating the Elder Scrolls universe.</subtitle><author><name>TamrielCraft</name></author><entry><title type="html">Welcome to the New TamrielCraft Site</title><link href="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/07/17/site-launch.html" rel="alternate" type="text/html" title="Welcome to the New TamrielCraft Site" /><published>2025-07-17T00:00:00+00:00</published><updated>2025-07-17T00:00:00+00:00</updated><id>https://jackjt8.github.io/TamrielCraft_Website/updates/2025/07/17/site-launch</id><content type="html" xml:base="https://jackjt8.github.io/TamrielCraft_Website/updates/2025/07/17/site-launch.html"><![CDATA[<h2 id="a-long-overdue-update">A Long-Overdue Update</h2>
 
 <p>Welcome to the new TamrielCraft website!</p>
 
@@ -40,10 +40,11 @@
 <h2 id="the-vision-years-in-the-making">The Vision, Years in the Making</h2>
 
 <figure class="captioned-figure" style="position: relative; display: inline-block;">
-  <img src="https://jackjt8.github.io/TamrielCraft_Website/assets/images/posts/2025-06-10-skyrim/windhelm_s.jpg" alt="Sacellum of Boethiah overlooking Windhelm and beyond." />
+
+  <p><a href="/TamrielCraft_Website/assets/images/fullsize/posts/2025-06-10-skyrim/windhelm.png"><picture><source sizes="((max-width: 768px)) 100vw, ((max-width: 1200px)) 90vw, () 768px" srcset="/TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/windhelm-480-94346380f.webp 480w, /TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/windhelm-768-94346380f.webp 768w, /TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/windhelm-1280-94346380f.webp 1280w" type="image/webp"><source sizes="((max-width: 768px)) 100vw, ((max-width: 1200px)) 90vw, () 768px" srcset="/TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/windhelm-480-553f59cfc.jpg 480w, /TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/windhelm-768-553f59cfc.jpg 768w, /TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/windhelm-1280-553f59cfc.jpg 1280w" type="image/jpeg"><img alt="Sacellum of Boethiah overlooking Windhelm and beyond." src="/TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/windhelm-1280-553f59cfc.jpg"></picture></a>
   <span class="captioned-figure__caption">
     Sacellum of Boethiah taken by Jackjt8
-  </span>
+  </span></p>
 </figure>
 
 <p>Nearly ten years ago, one of our most dedicated builders, Fonta59, began a monumental undertaking: recreating Skyrim as faithfully as possible, block by block. His goal was to match the world seen in The Elder Scrolls V: Skyrim with near 1:1 accuracy—capturing its geography, settlements, and atmosphere in painstaking detail. What started as a standalone passion project soon grew into a parallel build effort alongside the main TamrielCraft map.</p>
@@ -59,10 +60,11 @@
 <h2 id="whats-happening-behind-the-scenes">What’s Happening Behind the Scenes</h2>
 
 <figure class="captioned-figure" style="position: relative; display: inline-block;">
-  <img src="https://jackjt8.github.io/TamrielCraft_Website/assets/images/posts/2025-06-10-skyrim/falkreath_s.jpg" alt="Falkreath and it's surroundings." />
+
+  <p><a href="/TamrielCraft_Website/assets/images/fullsize/posts/2025-06-10-skyrim/falkreath.png"><picture><source sizes="((max-width: 768px)) 100vw, ((max-width: 1200px)) 90vw, () 768px" srcset="/TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/falkreath-480-2feb7e1fe.webp 480w, /TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/falkreath-768-2feb7e1fe.webp 768w, /TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/falkreath-1280-2feb7e1fe.webp 1280w" type="image/webp"><source sizes="((max-width: 768px)) 100vw, ((max-width: 1200px)) 90vw, () 768px" srcset="/TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/falkreath-480-d93ceb575.jpg 480w, /TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/falkreath-768-d93ceb575.jpg 768w, /TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/falkreath-1280-d93ceb575.jpg 1280w" type="image/jpeg"><img alt="Falkreath and it's surroundings." src="/TamrielCraft_Website/assets/images/generated/posts/2025-06-10-skyrim/falkreath-1280-d93ceb575.jpg"></picture></a>
   <span class="captioned-figure__caption">
     Falkreath taken by Jackjt8
-  </span>
+  </span></p>
 </figure>
 
 <p>Fonta is currently in the process of merging his entire overhauled Skyrim into the main TamrielCraft world. This includes:</p>
@@ -100,10 +102,11 @@
 <h2 id="a-new-tribunal-member">A New Tribunal Member</h2>
 
 <figure class="captioned-figure" style="position: relative; display: inline-block;">
-  <img src="https://jackjt8.github.io/TamrielCraft_Website/assets/images/posts/2025-02-16-leadership/davons_s.jpg" alt="Davon's Watch with Vvardenfell in the background." />
+
+  <p><a href="/TamrielCraft_Website/assets/images/fullsize/posts/2025-02-16-leadership/davons.png"><picture><source sizes="((max-width: 768px)) 100vw, ((max-width: 1200px)) 90vw, () 768px" srcset="/TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/davons-480-b981f447f.webp 480w, /TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/davons-768-b981f447f.webp 768w, /TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/davons-1280-b981f447f.webp 1280w" type="image/webp"><source sizes="((max-width: 768px)) 100vw, ((max-width: 1200px)) 90vw, () 768px" srcset="/TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/davons-480-31a8412a1.jpg 480w, /TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/davons-768-31a8412a1.jpg 768w, /TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/davons-1280-31a8412a1.jpg 1280w" type="image/jpeg"><img alt="Davon's Watch with Vvardenfell in the background." src="/TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/davons-1280-31a8412a1.jpg"></picture></a>
   <span class="captioned-figure__caption">
-    Davon's Watch taken by Jackjt8
-  </span>
+    Davon’s Watch taken by Jackjt8
+  </span></p>
 </figure>
 
 <p>Following CaptumQuantum’s departure, we’re pleased to announce that <strong>Dee</strong> has been promoted from Staff to Tribunal.</p>
@@ -127,10 +130,11 @@
 <h2 id="staff-promotion">Staff Promotion</h2>
 
 <figure class="captioned-figure" style="position: relative; display: inline-block;">
-  <img src="https://jackjt8.github.io/TamrielCraft_Website/assets/images/posts/2025-02-16-leadership/nchuleftingth_s.jpg" alt="The Dwemer ruins of Nchuleftingth, within the Molag Amur region." />
+
+  <p><a href="/TamrielCraft_Website/assets/images/fullsize/posts/2025-02-16-leadership/nchuleftingth.png"><picture><source sizes="((max-width: 768px)) 100vw, ((max-width: 1200px)) 90vw, () 768px" srcset="/TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/nchuleftingth-480-dd12e0d83.webp 480w, /TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/nchuleftingth-768-dd12e0d83.webp 768w, /TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/nchuleftingth-1280-dd12e0d83.webp 1280w" type="image/webp"><source sizes="((max-width: 768px)) 100vw, ((max-width: 1200px)) 90vw, () 768px" srcset="/TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/nchuleftingth-480-b265bc83c.jpg 480w, /TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/nchuleftingth-768-b265bc83c.jpg 768w, /TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/nchuleftingth-1280-b265bc83c.jpg 1280w" type="image/jpeg"><img alt="The Dwemer ruins of Nchuleftingth, within the Molag Amur region." src="/TamrielCraft_Website/assets/images/generated/posts/2025-02-16-leadership/nchuleftingth-1280-b265bc83c.jpg"></picture></a>
   <span class="captioned-figure__caption">
     Nchuleftingth taken by Jackjt8
-  </span>
+  </span></p>
 </figure>
 
 <p>We’re also proud to welcome <strong>Nat</strong> to the Staff team.</p>
