@@ -5,8 +5,6 @@ layout: splash
 author_profile: false
 ---
 
-[Open Dynmap in New Tab](https://map.tamrielcraft.eu/)
-
 <style>
 @media only screen and (max-width: 768px) {
   iframe.dynmap-embed {
@@ -24,8 +22,9 @@ author_profile: false
   allowfullscreen
   style="border:1px solid #444; border-radius: 8px;"
   >
-  </iframe>
+</iframe>
 
+<a class="btn btn--primary" target="_blank" href="https://map.tamrielcraft.eu/">Open Dynmap</a> 
 
 ## 🗺️ Map Legend
 
