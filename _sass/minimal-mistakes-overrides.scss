@@ -98,4 +98,43 @@ $primary-color: #ffd200 !default;
   }
 }
 
+/* Map Legend styling */
+.map-legend {
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.legend-category {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25rem;
+  position: relative;
+  scroll-margin-top: 4rem; // keeps headers visible if site has a sticky nav
+}
+
+.legend-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.legend-item img {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+}
+
+.legend-text {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
 

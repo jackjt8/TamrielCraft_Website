@@ -1,0 +1,299 @@
+- category: Cities
+  items:
+    - icon: /pages/dynmap_markers/anvil.png
+      alt: "Icon for the city of Anvil"
+      title: "The city of Anvil"
+      description: "A prosperous Colovian harbour city in the Gold Coast Region."
+
+    - icon: /pages/dynmap_markers/bravil.png
+      alt: "Icon for the city of Bravil"
+      title: "The city of Bravil"
+      description: "The Daughter of the Niben and once a grand Ayleid settlement."
+
+    - icon: /pages/dynmap_markers/cheydinhal.png
+      alt: "Icon for the city of Cheydinhal"
+      title: "The city of Cheydinhal"
+      description: "An idyllic and prosperous Nibenese city noted for its heavily Dunmer architecture and customs."
+
+    - icon: /pages/dynmap_markers/dawnstar.png
+      alt: "Icon for the city of Dawnstar"
+      title: "The city of Dawnstar"
+      description: "We bid you welcome to the City-State which greets the sun as it begins its journey, ..."
+
+    - icon: /pages/dynmap_markers/imperial.png
+      alt: "Icon for the Imperial City / Other Imperial constructions"
+      title: "The Imperial City / Other Imperial constructions"
+      description: "'There is but one city in the Imperial Province, but one city in Tamriel, but one city in the World; that, my brothers, is the city of the Cyrodiils.' –Refayj"
+
+    - icon: /pages/dynmap_markers/falkreath.png
+      alt: "Icon for the city of Falkreath"
+      title: "The city of Falkreath"
+      description: "Where heroes come to die."
+
+    - icon: /pages/dynmap_markers/kvatch.png
+      alt: "Icon for the city of Kvatch"
+      title: "The city of Kvatch"
+      description: "TODO"
+
+    - icon: /pages/dynmap_markers/leyawiin.png
+      alt: "Icon for the city of Leyawiin"
+      title: "The city of Leyawiin"
+      description: "Known as the city that straddles the swampy estuary of the Niben..."
+
+    - icon: /pages/dynmap_markers/markarth.png
+      alt: "Icon for the city of Markarth"
+      title: "The city of Markarth"
+      description: "A former Dwarven city of Stone, built through a large stone crag, it's now the focal point of power and conflict."
+
+    - icon: /pages/dynmap_markers/morthal.png
+      alt: "Icon for the city of Morthal"
+      title: "The city of Morthal"
+      description: "Supposedly named after the great Nord hero Morihaus."
+
+    - icon: /pages/dynmap_markers/mournholdAlmalexia.png
+      alt: "Icon for the city of Mournhold/Almalexia"
+      title: "The city of Mournhold/Almalexia"
+      description: "The largest and oldest city in Morrowind; The captial. The City of Light and Magic... of Gems... of Love and Charity."
+
+    - icon: /pages/dynmap_markers/riften.png
+      alt: "Icon for the city of Riften"
+      title: "The city of Riften"
+      description: "TODO"
+
+    - icon: /pages/dynmap_markers/skingrad.png
+      alt: "Icon for the city of Skingrad"
+      title: "The city of Skingrad"
+      description: "Known as the Gem of Old Colovia and a model of the Colvian vitues of independence, hard work, and tough-mindedness."
+
+    - icon: /pages/dynmap_markers/solitude.png
+      alt: "Icon for the city of Solitude"
+      title: "The city of Solitude"
+      description: "TODO"
+
+    - icon: /pages/dynmap_markers/vivec.png
+      alt: "Icon for Vivec City"
+      title: "Vivec City"
+      description: "The holy seat of the Tribunal Temple theology on the volcanic isle of Vvardenfell."
+
+    - icon: /pages/dynmap_markers/whiterun.png
+      alt: "Icon for the city of Whiterun"
+      title: "The city of Whiterun"
+      description: "In the Dragon Language, the city is known as Ahrolsedovah, which means Hill-of-Dragon."
+
+    - icon: /pages/dynmap_markers/windhelm.png
+      alt: "Icon for the city of Windhelm"
+      title: "The city of Windhelm"
+      description: "The City of Kings. The oldest continuously inhabited human settlement in Tamriel."
+
+    - icon: /pages/dynmap_markers/winterhold.png
+      alt: "Icon for the city of Winterhold"
+      title: "The city of Winterhold"
+      description: "Once the capital of Skyrim with a rich and illustrious history while in it's prime... it's now a shell of it's former self."
+
+- category: Towns and Settlements
+  items:
+    - icon: /pages/dynmap_markers/mwTown.png
+      alt: "Icon for Morrowind Towns"
+      title: "Morrowind Town"
+      description: "Various towns around Morrowind."
+
+    - icon: /pages/dynmap_markers/orcStronghold.png
+      alt: "Icon for Orc Stronghold"
+      title: "Orc Stronghold"
+      description: "A settlement of Orcs."
+
+    - icon: /pages/dynmap_markers/settlement.png
+      alt: "Icon for Generic Settlements"
+      title: "Settlementss"
+      description: "Generic settlement not tied to any major faction."
+
+    - icon: /pages/dynmap_markers/telvanniTower.png
+      alt: "Icon for Telvanni Towers"
+      title: "Telvanni Towers"
+      description: "Home of Telvanni Wizards."
+
+    - icon: /pages/dynmap_markers/town.png
+      alt: "Icon for Generic town"
+      title: "Town"
+      description: "Various towns."
+
+    - icon: /pages/dynmap_markers/winterholdcastle.png
+      alt: "Icon for College of Winterhold"
+      title: "College of Winterhold"
+      description: "A school for magic surrounded by skeptics."
+
+    - icon: /pages/dynmap_markers/farm.png
+      alt: "Icon for Farmsteads"
+      title: "Farms"
+      description: "Various farms."
+
+    - icon: /pages/dynmap_markers/inn.png
+      alt: "Icon for Inns & taverns"
+      title: "Inns & taverns"
+      description: "Various Inns & taverns."
+
+    - icon: /pages/dynmap_markers/mine.png
+      alt: "Icon for Mines"
+      title: "Mines"
+      description: "Mines for various ores/minerals."
+
+    - icon: /pages/dynmap_markers/plantation.png
+      alt: "Icon for Plantations"
+      title: "Plantations"
+      description: "Various plantations."
+
+    - icon: /pages/dynmap_markers/shack.png
+      alt: "Icon for Shacks"
+      title: "Shacks"
+      description: "Small dwellings or huts."
+
+    - icon: /pages/dynmap_markers/woodmill.png
+      alt: "Icon for Wood Mills"
+      title: "Wood Mills"
+      description: "Various wood mills."
+
+
+- category: Camps & Fortifications
+  items:
+    - icon: /pages/dynmap_markers/ashlandercamp.png
+      alt: "Icon for Ashlander Camps"
+      title: "Ashlander Camps"
+      description: "Traditional nomadic encampments of the Ashlanders."
+
+    - icon: /pages/dynmap_markers/camp.png
+      alt: "Icon for Generic Camps"
+      title: "Camps"
+      description: "Small camps not tied to any major faction."
+
+    - icon: /pages/dynmap_markers/imperial.png
+      alt: "Icon for Imperial Camps / Forts / Other Imperial stuff"
+      title: "Imperial Camps & Forts "
+      description: "Temporary encampments for the Imperial Legion and Imperial Styled forts."
+
+    - icon: /pages/dynmap_markers/stormcloakcamp.png
+      alt: "Icon for Stormcloak Camp"
+      title: "Stormcloak Camp"
+      description: "Encampments belonging to the Stormcloaks during the rebllion."
+
+    - icon: /pages/dynmap_markers/fort.png
+      alt: "Icon for Generic Forts"
+      title: "Forts"
+      description: "Forts either not tied to any major faction or few in number."
+
+
+- category: Dungeons & Ruins
+  items:
+    - icon: /pages/dynmap_markers/dungeon.png
+      alt: "Icon for Generic Dungeons"
+      title: "Dungeons"
+      description: "Generic dungeons not tied to any major faction or few in number."
+
+    - icon: /pages/dynmap_markers/mwTomb.png
+      alt: "Icon for Morrowind Tombs"
+      title: "Morrowind Tombs"
+      description: "Velothi/Chimer tombs."
+
+    - icon: /pages/dynmap_markers/sewer.png
+      alt: "Icon for Sewers"
+      title: "Sewers"
+      description: "Sewers."
+
+    - icon: /pages/dynmap_markers/tomb.png
+      alt: "Icon for Generic Tombs"
+      title: "Tombs"
+      description: "Generic tombs not tied to any major faction or few in number."
+
+    - icon: /pages/dynmap_markers/ayleidruin.png
+      alt: "Icon for Ayleid Ruins"
+      title: "Ayleid Ruins"
+      description: "All that remain of the Ayleids."
+
+    - icon: /pages/dynmap_markers/daedricruin.png
+      alt: "Icon for Daedric Ruins"
+      title: "Daedric Ruins"
+      description: "Great edifices dedicated to the worship of Daedric Princes."
+
+    - icon: /pages/dynmap_markers/ruin.png
+      alt: "Icon for other Ruins"
+      title: "Ruins"
+      description: "Various misc ruins."
+
+
+- category: Shrines & Religion
+  items:
+    - icon: /pages/dynmap_markers/mundusstone.png
+      alt: "Icon for Mundus stones"
+      title: "Mundus stones"
+      description: "Location of the various Mundus stones."
+
+    - icon: /pages/dynmap_markers/shrine.png
+      alt: "Icon for Generic shrines"
+      title: "Generic shrine"
+      description: "Various generic shrines."
+
+    - icon: /pages/dynmap_markers/wayshrine.png
+      alt: "Icon for Wayshrines"
+      title: "Wayshrines"
+      description: "Wayshrines are fast-travel hubs from ESO, which we may use."
+
+
+- category: Landmarks & Wonders
+  items:
+    - icon: /pages/dynmap_markers/landmark.png
+      alt: "Icon for Generic landmark"
+      title: "Landmarks"
+      description: "Iconic and great for navigation."
+
+    - icon: /pages/dynmap_markers/oblivionGate.png
+      alt: "Icon for Oblivion gates"
+      title: "Oblivion gates"
+      description: "The Jaws of Oblivion."
+
+    - icon: /pages/dynmap_markers/shipwreck.png
+      alt: "Icon for Shipwrecks"
+      title: "Shipwrecks"
+      description: "Shipwrecks."
+
+
+- category: Travel & Navigation
+  items:
+    - icon: /pages/dynmap_markers/dock.png
+      alt: "Icon for Docks & harbors"
+      title: "Docks & harbors"
+      description: "Docks & harbors."
+
+    - icon: /pages/dynmap_markers/mountainpass.png
+      alt: "Icon for Mountain passes / crossings"
+      title: "Mountain passes / crossings"
+      description: "Mountain passes / crossings."
+
+    - icon: /pages/dynmap_markers/stable.png
+      alt: "Icon for Stables"
+      title: "Stables"
+      description: "Horses are still a great for of transportation."
+
+
+- category: Nature & Wilds
+  items:
+    - icon: /pages/dynmap_markers/cave.png
+      alt: "Icon for Caves"
+      title: "Caves"
+      description: "Various caves."
+
+    - icon: /pages/dynmap_markers/grove.png
+      alt: "Icon for Groves & sacred natural sites"
+      title: "Groves & sacred natural sites"
+      description: "Groves & sacred natural sites."
+
+
+- category: Defaults
+  items:
+    - icon: /pages/dynmap_markers/default.png
+      alt: "Dynamp Default Marker"
+      title: "Dynamp Default Marker"
+      description: "Dynamp Default Marker."
+
+    - icon: /pages/dynmap_markers/world.png
+      alt: "Dynamp Default World Icon"
+      title: "Dynamp Default World Icon"
+      description: "Dynamp Default World Icon."

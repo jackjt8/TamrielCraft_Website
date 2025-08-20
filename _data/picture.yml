@@ -57,6 +57,7 @@ presets:
     fallback_width: 200
     fallback_format: jpg
     link_source: false
+    nomarkdown: false # thumbnail images are wrapped in so much html that we need this flag set.
     sizes:
       default: "200px"
 
