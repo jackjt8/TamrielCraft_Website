@@ -1,0 +1,21 @@
+<div class="map-legend" markdown="0">
+  {% for group in site.data.map-legend %}
+    {% assign anchor_id = group.category | slugify %}
+    <h3 id="{{ anchor_id }}" class="legend-category">
+      {{ group.category }}
+    </h3>
+    <div class="legend-group">
+      {% for item in group.items %}
+        <div class="legend-item">
+          <div class="legend-icon">
+            {% picture markers "{{ item.icon }}" alt="{{ item.alt }}" %}
+          </div>
+          <div class="legend-text">
+            <strong>{{ item.title }}</strong><br>
+            {{ item.description }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

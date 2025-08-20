@@ -9,7 +9,7 @@ presets:
   base: &base
     markup: auto
     widths: [480, 768, 1280]
-    formats: [webp, jpg]
+    formats: [webp, jpg] #avif unsupported
     fallback_format: jpg
     fallback_width: 1280
     noscript: false
@@ -53,12 +53,26 @@ presets:
   thumbnail:
     base_width: 200
     pixel_ratios: [1, 1.5, 2]
-    formats: [avif, webp, jpg]
+    formats: [webp, jpg] # avif unsupported
     fallback_width: 200
     fallback_format: jpg
     link_source: false
+    nomarkdown: false # thumbnail images are wrapped in so much html that we need this flag set.
     sizes:
       default: "200px"
+
+  markers:
+    base_width: 16
+    pixel_ratios: [1, 2, 4]  # 16px, 32px, 64px
+    formats: [webp, png] # avif unsupported
+    fallback_width: 16
+    fallback_format: png
+    link_source: false
+    nomarkdown: false
+    preserve_size: false
+    sizes:
+      default: "64px"
+
 
   # Used for pictures on blog posts
   blog:

@@ -98,4 +98,74 @@ $primary-color: #ffd200 !default;
   }
 }
 
+/* Map Legend styling */
+.map-legend {
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.legend-category {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25rem;
+  position: relative;
+  scroll-margin-top: 4rem;
+}
+
+.legend-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.25rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.1rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  padding: 0.5rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.legend-item:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+}
+
+/* wrapper ensures square aspect ratio */
+.legend-icon {
+  flex-shrink: 0;
+  width: 64px;
+  aspect-ratio: 1 / 1;   /* keep square */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.legend-icon picture,
+.legend-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.legend-text strong {
+  display: block;
+  font-size: 1rem; /* keep titles clean and readable */
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+}
+
+.legend-text {
+  font-size: 0.85rem;
+  color: #ccc; /* or var(--text-muted) if you use CSS variables */
+  line-height: 1.4;
+}
+
 
