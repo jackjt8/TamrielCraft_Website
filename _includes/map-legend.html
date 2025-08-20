@@ -7,7 +7,9 @@
     <div class="legend-group">
       {% for item in group.items %}
         <div class="legend-item">
-          {% picture thumbnail "{{ item.icon }}" alt="{{ item.alt }}" %}
+          <div class="legend-icon">
+            {% picture thumbnail "{{ item.icon }}" alt="{{ item.alt }}" %}
+          </div>
           <div class="legend-text">
             <strong>{{ item.title }}</strong><br>
             {{ item.description }}
