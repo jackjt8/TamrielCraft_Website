@@ -13,9 +13,48 @@ TamrielCraft is an ambitious Minecraft project dedicated to faithfully recreatin
 
 TamrielCraft was founded on **December 25, 2012** and has grown into a dedicated community of builders, lore enthusiasts, and roleplayers. While many members have come and gone, the heart of the project remains: to bring the world of *The Elder Scrolls* to life in Minecraft — in both accuracy and spirit.
 
----
 
 ## 🌍 The World
+
+TamrielCraft was founded on **December 25, 2012** by a small group of Elder Scrolls fans who wanted to see Tamriel realized in Minecraft with unprecedented scale and accuracy. The project began as a passion-driven effort to blend creative building with deep respect for Elder Scrolls lore, and quickly attracted like-minded builders, roleplayers, and lore enthusiasts from around the world.
+
+In the early years, progress was slow but steady, with the team experimenting with map sizes, custom textures, and collaborative workflows. The vision was always ambitious: to create a living, evolving world that would do justice to the source material, while also providing a welcoming space for creativity and community.
+
+Over time, TamrielCraft grew from a handful of builders into a vibrant, international community. The project weathered the usual challenges—server resets, technical hurdles, and shifting leadership—but always remained focused on its core mission: to bring the world of *The Elder Scrolls* to life, one block at a time.
+
+---
+
+## 🛕 Leadership & Staff
+
+TamrielCraft is guided by a dedicated team of administrators (the Tribunal) and staff (Ordinators), each of whom has left a unique mark on the project. Leadership has evolved over the years, with new members stepping up as others move on:
+
+- **The Tribunal (Administrators):**
+	- *BlueMoony*, *dee*, *Vivec* (current)
+	- Past Tribunal members include *CaptumQuantum*, who stepped down in 2025 after years of service but remains active as staff.
+- **The Ordinators (Staff/Moderators):**
+	- *Yvan*, *Nat*, *SamDren*, *Jackjt8*, *NicovicTheSixth*, *PresidentCrabo*, *CaptainQuantum*, *Pringlulz*
+
+Notable leadership transitions include:
+- In 2025, **Dee** was promoted to Tribunal, recognized for their creative vision and major contributions across Solstheim and Vvardenfell (notable builds: Old Ebonheart, Skaal Village, Pelagiad, Molag Mar, Davon's Watch, Seyda Neen, Ald Sotha).
+- **Nat** joined the staff team in 2025, known for their reliability and builds such as Anvil Castle, Necrom, Dunmer tombs, Nchuleftingth, Bthuand, and the Keywright’s Gallery.
+
+For a full list of current and past contributors, see the [Credits](/credits/) page.
+
+---
+
+## 🏆 Major Milestones
+
+- **2012:** TamrielCraft founded; initial world and community established.
+- **2017:** First major website launched, providing a hub for updates and community info.
+- **2020s:** Ongoing expansion of the map, with provinces like Skyrim, Morrowind, and Hammerfell seeing major progress.
+- **2025:**
+	- *Leadership changes*: CaptumQuantum steps down from Tribunal; Dee promoted to Tribunal; Nat joins staff.
+	- *Skyrim Integration*: Fonta59’s near-1:1 Skyrim project is fully merged into the main TamrielCraft world, marking one of the largest technical and creative undertakings in the project’s history.
+	- *New Website Launch*: The site is rebuilt with Jekyll and Markdown, making it easier for the team to share updates and for the community to contribute.
+
+Other milestones include the introduction of the live Dynmap, the `/warp` system, and the ongoing adaptation of new Elder Scrolls Online content.
+
+---
 
 The map spans the **entire continent of Tamriel**, including key provinces like Skyrim, Morrowind, and Hammerfell, as well as a few surrounding islands. Build teams work together to create environments that reflect the **in-game depictions**, **written lore**, and **developer comments**, balancing aesthetic cohesion with deep respect for source material.
 
